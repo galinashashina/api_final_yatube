@@ -23,6 +23,7 @@
     bash
     python -m venv venv
     source venv/bin/activate  # для macOS/Linux
+    venv\Scripts\activate  # для Windows
 
 3. Установите зависимости:
     bash
@@ -66,3 +67,8 @@
 - Django REST Framework
 - PostgreSQL
 - JWT (для аутентификации)
+
+### Автор
+**Галина Шашина**
+[GitHub](https://github.com/galinashashina)
+[Email](mailto:g.sshashina@yandex.ru)

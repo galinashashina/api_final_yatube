@@ -99,6 +99,14 @@ REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': [
         'rest_framework.permissions.IsAuthenticatedOrReadOnly',
     ],
+    # 'DEFAULT_PAGINATION_CLASS':
+    #     'rest_framework.pagination.LimitOffsetPagination',
+    # 'PAGE_SIZE': 10,
+    # у меня не получилось использовать такую пагинацию
+    # ошибка
+    # AssertionError:
+    # Проверьте, что GET-запрос авторизованного пользователя к `/api/v1/posts/`
+    # возвращает список.
     'DEFAULT_PAGINATION_CLASS': 'api.pagination.PostPagination',
 }
 
